@@ -1,6 +1,9 @@
 # Retail ETL & ML Data Pipeline
 
 This project implements an end-to-end ETL data pipeline for a retail analytics scenario. It combines product, sales, and customer review data into a curated, analysis-ready dataset that can be used to power dashboards and machine learning models.
+
 Starting from a prototype in a Jupyter notebook, the logic is refactored into a production-like repository structure with separate modules for extraction, transformation, and loading (extract.py, transform.py, load.py) orchestrated by a single pipeline controller script (data_pipeline.py). The pipeline automates the flow of data from multiple sources, cleans and standardises it, merges everything into a single dataset, and then publishes the processed output to a version-controlled repository.
+
 On top of this ETL backbone, the project includes an SST-2 sentiment analysis model to predict the sentiment of customer product reviews. The predicted sentiment is merged into the curated dataset, enabling richer analytics and powering a lightweight dashboard to explore how customer sentiment correlates with product price, category, and ratings.
-You can try the live version of the Retail ETL and Sentiment Analysis App here: [![Open App](https://appuctreviews-etl-ml-pipeline-c9xhmmsg4aibwtrgxhlksr.streamlit.app/)
+
+You can try the live version of the Retail ETL and Sentiment Analysis App here: [[Open App](https://appuctreviews-etl-ml-pipeline-c9xhmmsg4aibwtrgxhlksr.streamlit.app/)
