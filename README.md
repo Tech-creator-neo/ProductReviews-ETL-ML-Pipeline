@@ -6,4 +6,4 @@ Starting from a prototype in a Jupyter notebook, the logic is refactored into a 
 
 On top of this ETL backbone, the project includes an SST-2 sentiment analysis model to predict the sentiment of customer product reviews. The predicted sentiment is merged into the curated dataset, enabling richer analytics and powering a lightweight dashboard to explore how customer sentiment correlates with product price, category, and ratings.
 
-You can try the live version of the Retail ETL and Sentiment Analysis App here: [[Open App](https://appuctreviews-etl-ml-pipeline-c9xhmmsg4aibwtrgxhlksr.streamlit.app/)
+You can try the live version of the Retail ETL and Sentiment Analysis App here: [Open App](https://appuctreviews-etl-ml-pipeline-c9xhmmsg4aibwtrgxhlksr.streamlit.app/)
