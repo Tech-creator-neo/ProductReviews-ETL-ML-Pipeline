@@ -1,0 +1,5 @@
+# Auto-inferred from imports. Review and pin versions as needed.
+mongomock
+pandas
+requests
+pytest
