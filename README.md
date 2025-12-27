@@ -23,3 +23,6 @@ You can try the live version of the Retail ETL and Sentiment Analysis App here: 
 ## Sentiment Model
 
 - Base model: `distilbert` fine-tuned on SST-2
+
+## App preview
+![App preview](Asset/app_preview.png)
